@@ -22,6 +22,3 @@ c = st.number_input('Введите коэффициент c', value=0.0)
 result = find_root(a, b, c)
 st.write(result)
 
-!pip install -q streamlit
-
-!npm install -g localtunnel
